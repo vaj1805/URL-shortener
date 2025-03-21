@@ -15,7 +15,12 @@ const urlSchema = new mongoose.Schema(
         { timestamp : {
             type : Number
         }}
-    ]
+    ],
+    //for personalised url shortening only, logged in users see their urls only.
+    createdBy: {
+        type : mongoose.Schema.Types.ObjectId,
+        ref : 'user'
+    }
 } , 
 { timestamp : true }
 );
