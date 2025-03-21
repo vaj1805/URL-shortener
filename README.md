@@ -1,5 +1,7 @@
-# A URL shortener project built in node.js
+A URL shortener project built using Node.js.
 
-# coded in MVC architecture
+Coded using the MVC architecture.
 
-# dynamic routing . Tested APIs using postman tool
+Implements dynamic routing.
+
+APIs tested using the Postman tool.
